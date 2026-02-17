@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Assignment No.6</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Fjalla One", sans-serif;
+
+        }
+
+        h1 {
+            margin: 20px 390px;
+            color: green;
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 62%;
+            height: 730px;
+            background-color: blueviolet;
+            margin: 15px auto;
+            border-radius: 10px;
+            color: white;
+            padding: 10px;
+            display: flex;
+        }
+
+        .label-box {
+            width: 160px;
+            height: 600px;
+        }
+
+        .input-box {
+            width: 650px;
+            height: 600px;
+        }
+
+        table {
+            border: 2px solid darkblue;
+        }
+
+        .last-text td {
+            text-align: center;
+        }
+
+        .btn {
+            text-align: center;
+        }
+
+        .btn input {
+            padding: 4px 13px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <div class="container">
+
+        <div class="label-box">
+            <label>FIRST NAME</label> <br> <br>
+            <label>LAST NAME</label> <br> <br>
+            <label>DATE OF BIRTH</label> <br> <br>
+            <label>EMAIL ID</label> <br> <br>
+            <label>MOBILE NUMBER</label> <br><br>
+            <label>GENDER</label> <br> <br>
+            <label>ADDREES</label><br> <br><br><br><br>
+            <label>CITY</label><br><br>
+            <label>PIN CODE</label> <br><br>
+            <label>STATE</label> <br> <br>
+            <label>COUNTRY</label> <br> <br>
+            <label>HOBBIES</label> <br> <br> <br>
+            <label>QUALIFICATION</label> <br> <br> <br> <br><br><br><br> <br>
+            <label>COURSES <br> APPLIED FOR</label>
+        </div>
+
+
+        <div class="input-box">
+            <input type="text" placeholder=""> (max 30 characters a-z and A-Z) <br><br>
+            <input type="text"> (max 30 characters a-z and A-Z) <br><br>
+            <select>
+                <option>Day:</option>
+                <option>Sunday</option>
+                <option>Monday</option>
+                <option>Tuesday</option>
+                <option>Wednesday</option>
+            </select>
+            <select>
+                <option>Month:</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+            </select>
+            <select>
+                <option>Year</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+                <option>2026</option>
+            </select> <br> <br>
+            <input type="text"> <br> <br>
+            <input type="text">(10 digit number) <br> <br>
+
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female <br> <br>
+
+            <textarea rows="4" cols="50"></textarea> <br><br>
+
+            <input type="text" placeholder=""> (max 30 characters a-z and A-Z) <br><br>
+
+            <input type="number" placeholder=""> (6 digit number) <br><br>
+
+            <input type="text" placeholder=""> (max 30 characters a-z and A-Z) <br><br>
+
+            <input type="text" placeholder=""> <br><br>
+
+            <label>Drawing</label>
+            <input type="checkbox">
+
+            <label>Singing</label>
+            <input type="checkbox">
+
+            <label>Dancing</label>
+            <input type="checkbox">
+
+            <label>Sketching</label>
+            <input type="checkbox"> <br>
+
+            <label>Other</label>
+            <input type="checkbox">
+            <input type="text"> <br> <br>
+
+            <table>
+                <tr>
+                    <th>SI.No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XX</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Master</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr class="last-text">
+                    <td colspan="2"></td>
+                    <td>(10 char max)</td>
+                    <td>(upto 2 decimal)</td>
+
+                </tr>
+            </table> <br>
+            <input type="radio"> BCA
+            <input type="radio"> B.com
+            <input type="radio"> B.Sc
+            <input type="radio"> B.A <br><br>
+
+            <div class="btn">
+                <input type="submit" value="Submit">
+                <input type="submit" value="Reset">
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        h1:hover {
+            color: white !important;
+            cursor: pointer;
+        }
+
+        main {
+            width: 720px;
+            margin: 20px auto;
+            display: flex;
+            gap: 25px;
+            color: white;
+            background-color: blueviolet;
+            border-radius: 6px;
+            padding: 20px;
+        }
+
+        .left-side {
+            width: 300px;
+        }
+
+        .right-side {
+            width: 400px;
+        }
+
+        .img-card {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .summary {
+            margin-top: 30px;
+        }
+
+        .left-side a {
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+            font-size: 30px;
+            border-bottom: 2px solid green;
+        }
+
+        .left-side a:hover {
+            color: white;
+        }
+
+        .right-side a {
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+            font-size: 30px;
+            border-bottom: 2px solid green;
+            cursor: pointer;
+        }
+
+        .right-side a:hover {
+            color: white !important;
+        }
+
+        table th {
+            color: black;
+            font-size: 19px;
+            font-weight: 700;
+        }
+
+        table th:hover {
+            color: white;
+            cursor: pointer;
+        }
+
+        input {
+            padding: 12px 30px;
+            margin: 5px;
+            border-radius: 10px;
+            border: none;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+
+        <div class="left-side">
+            <div class="img-card">
+                <img src="pic.png" alt="image is error">
+            </div>
+
+            <a href="contact.html" target="_blank">Contact</a> <br> <br>
+
+            <a href="hobbies.html" target="_blank">Hobbies</a> <br> <br>
+
+            <a href="form.html" target="_blank">HTML Form</a> <br><br>
+
+            <a href="skill.html" target="_blank">Skills</a> <br><br>
+
+            <a href="./inline-cv.html" target="_blank">Inline CV</a> <br><br>
+
+            <input type="text" placeholder="Enter name">
+            <input type="text" placeholder="Enter email">
+            <input type="text" placeholder="Enter Password">
+            <input type="text" placeholder="Enter age">
+
+        </div>
+
+        <div class="right-side">
+            <h1 class="summary" style="color: black;">Summary</h1>
+            <p style="font-size: 20px; margin-top: 10px; text-align: justify; line-height: 23px;">Motivated and
+                passionate Frontend
+                Developer seeking an
+                opportunity to apply my
+                skills in HTML, CSS,
+                Bootstrap,
+                and JavaScript to build responsive and user-friendly websites. I aim to continuously learn new
+                technologies,
+                improve my problem-solving abilities, and contribute to a team by creating clean, efficient, and
+                visually
+                appealing web interfaces.
+            </p>
+            <h1 style="margin-top: 20px; color: black;">Education</h1>
+            <table border="2" style="font-size: 17px;">
+                <tr>
+                    <th>Degree</th>
+                    <th>Collage Name</th>
+                    <th>Mark</th>
+                    <th>Passing Year</th>
+                </tr>
+                <tr>
+                    <td>Matric</td>
+                    <td>Govt High School Khall KPK</td>
+                    <td>778</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Intermediate</td>
+                    <td>Govt Post Graduate Collge KPK</td>
+                    <td>805</td>
+                    <td>2025</td>
+                </tr>
+            </table>
+
+            <h1 style="margin-top: 25px; color: black;">Work experience</h1>
+            <p style="font-size: 18px; margin-top: 8px;">Qalam Training Program | Aug 025 - <strong>Present</strong></p>
+            <ul style="font-size: 18px; margin-top: 5px; text-align: justify; line-height: 22px;">
+                <li>Create langding page using HTML CSS.</li>
+                <li>Designed responsive layouts using Bootstrap 5</li>
+                <li>Created modals, carousels, and navbars with Bootstrap components</li>
+                <li>Built small web projects using HTML, CSS, JS</li>
+                <li>Improved code structure and followed basic best practices.</li>
+                <li>Implemented JavaScript DOM manipulation, events, and basic logic for interactivity</li>
+                <li>Improved code structure and followed basic best practices</li>
+            </ul>
+
+            <br>
+
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>
